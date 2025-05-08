@@ -6,7 +6,7 @@ export default function Projects() {
         Check back soon for some fun UX case studies and design projects I'm working on!
       </p>
       <p>
-        Dynamic project pages are coming soon (e.g., /projects/my-first-project), stay tuned!
+        Dynamic project pages are coming soon (e.g., "/projects/my-first-project"), stay tuned!
       </p>
       <ul>
         <li>Cool App (Coming Soon)</li>
