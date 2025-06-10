@@ -1,34 +1,39 @@
 export default function AboutPage() {
-    return (
-      <main style={{ padding: '2rem', fontFamily: 'Arial, sans-serif', maxWidth: '800px', margin: '0 auto' }}>
-        <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>About Me</h1>
-  
-        <p style={{ fontSize: '1.2rem', lineHeight: '1.6' }}>
-          Hi! I’m <strong>Ava Abadian</strong> — a Cognitive Science major with a specialization in Design & Interaction at UC San Diego.
-          I started as a pre-med student studying neuroscience, but eventually found my passion in the world of design.
-          Now I’m exploring how I can bring together the brain and behavior with the art of human-centered design.
-        </p>
-  
-        <p style={{ fontSize: '1.2rem', lineHeight: '1.6', marginTop: '1.5rem' }}>
-          I’m still growing in this field and excited to keep learning — I see myself as a lifelong learner who’s curious about everything.
-          If I could have a superpower, it would be knowing everything about every field (seriously!).
-          Whether it’s design, science, or the human experience, I want to keep evolving.
-        </p>
-  
-        <p style={{ fontSize: '1.2rem', lineHeight: '1.6', marginTop: '1.5rem' }}>
-          Outside of school and work, I love photography, traveling, being in nature, working out, and listening to music.
-          One of my biggest dreams is to build a career that lets me work remotely, see the world, and one day give back to my parents —
-          because everything I’m doing now is all because of their love and sacrifices. 💛
-        </p>
-  
-        <p style={{ fontSize: '1rem', lineHeight: '1.6', marginTop: '2rem', fontStyle: 'italic', color: '#444' }}>
-          If you're curious about my academic interests, check out this 
-          {" "}
-          <a href="https://cogsci.ucsd.edu/" target="_blank" rel="noopener noreferrer" style={{ color: '#0070f3', textDecoration: 'underline' }}>
-            link to UCSD Cognitive Science Department
-          </a>.
-        </p>
-      </main>
-    );
-  }
-  
+  return (
+    <main style={{ padding: '2rem', fontFamily: 'Arial, sans-serif', backgroundColor: '#fff' }}>
+      <h1 style={{ fontSize: '2.5rem', color: '#111' }}>About Me</h1>
+
+      <p style={{ fontSize: '1.15rem', lineHeight: '1.6', color: '#222' }}>
+        Hi! I’m <strong>Ava Abadian</strong> — a Cognitive Science major at UC San Diego specializing in
+        Design & Interaction. My academic path has taken many turns, from premed to
+        neuroscience, and now I have discovered my love for design. I’m especially drawn to
+        human-centered design and how we can use it to make technology more accessible,
+        intuitive, and impactful.
+      </p>
+
+      <p style={{ fontSize: '1.15rem', lineHeight: '1.6', color: '#222' }}>
+        I’m still new in my design journey and learning as much as I can. I’m passionate about
+        merging my background in science with user experience, especially creating tools
+        that help students and people dealing with anxiety, ADHD, or other cognitive
+        disadvantages. I hope to become a designer who brings empathy into every step of
+        the process, always listening, learning, and designing with intention and care.
+      </p>
+
+      <p style={{ fontSize: '1.15rem', lineHeight: '1.6', color: '#222' }}>
+        Outside of design, I love photography, stargazing, nature, music, staying active, and
+        traveling. I dream of a remote-friendly career that allows me to see the world while
+        supporting my family, especially giving back to my parents, whose sacrifices made
+        my education and future possible.
+      </p>
+
+      <p style={{ fontSize: '1.15rem', lineHeight: '1.6', color: '#222' }}>
+        You can also read my brief <a href="/self-assessment-cogs125.pdf" target="_blank" rel="noopener noreferrer" style={{ color: '#0070f3', textDecoration: 'underline' }}>self-assessment reflection</a> to learn more about my growth through this course.
+      </p>
+
+      <p style={{ fontStyle: 'italic', color: '#777', marginTop: '2rem' }}>
+        I’m actively growing this portfolio, and many projects are still in development. More updates and
+        polished work will be coming soon — thanks for checking it out!
+      </p>
+    </main>
+  );
+}
